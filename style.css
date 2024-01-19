@@ -72,7 +72,6 @@ li > a{
 .rettangolo-fucsia{
     height: 80%;
     width: 60%;
-    /* background-color: rgba(255, 0, 0, .4); */
     margin: auto;   
     text-align: center; 
     padding: 0px 200px;
@@ -225,20 +224,30 @@ li > a{
 
 .quinta-section{
     background-color: #F6F6F6;
-    height: 650px;
+    height: 800px;
     display: flex;
 }
 
 .tecnologia{
-    background-color: #228B21;
     width: 60%;
     height: 80%;
     margin: auto;
     text-align: center;
 }
 
+.top-tecnologia{
+    height: 15%;
+}
+
 .tecnologia-img{
     background-image: url(img/item4-big.svg);
+    background-size: cover;
+    height: 70%;
+}
+
+.bottom-tecnologia{
+    height: 15%;
+    padding-top: 50px;
 }
 
 .botton-mac-bottom-main{
