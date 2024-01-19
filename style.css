@@ -200,6 +200,32 @@ li > a{
     display: flex;
 }
 
+.fandom-img{
+    background-image: url(img/item3.svg);
+    background-size: cover;
+    width: 70%;
+    height: 100%;
+}
+
+.fandom-text{
+    width: 30%;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.fandom-text > h2{
+    font-size: 2rem;
+}
+
+.fandom-text > p{
+    font-size: 1.2rem;
+    padding-top: 30px;
+}
+
+
+
+
+
 .quinta-section{
     background-color: #F6F6F6;
     height: 650px;
