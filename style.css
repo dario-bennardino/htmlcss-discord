@@ -66,7 +66,7 @@ li > a{
 }
 
 .jumbotron{
-    height: 450px;
+    height: 550px;
     display: flex;   
 }
 .rettangolo-fucsia{
@@ -96,7 +96,7 @@ li > a{
     background-color: white;
     color: black;
     font-size: 1.5rem;
-    padding: 10px 20px;
+    padding: 20px 15px;
     border-radius: 37px;
 }
 
@@ -105,7 +105,7 @@ li > a{
     color: white;
     margin-left: 50px;
     font-size: 1.5rem;
-    padding: 10px 20px;
+    padding: 20px 15px;
     border-radius: 37px;
 }
 
@@ -151,7 +151,7 @@ li > a{
 
 .study-group-text > p{
     font-size: 1.2rem;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 
@@ -224,7 +224,7 @@ li > a{
 
 .quinta-section{
     background-color: #F6F6F6;
-    height: 800px;
+    height: 1000px;
     display: flex;
 }
 
@@ -250,11 +250,28 @@ li > a{
     padding-top: 50px;
 }
 
+.top-tecnologia > h2{
+    font-size: 2.5rem;
+}
+
+.top-tecnologia > p{
+    font-size: 1.2rem;
+    padding-top: 30px;
+}
+
+.bottom-tecnologia > h3{
+    font-size: 2rem;
+    padding-bottom: 35px;
+    background-image: url(img/stars.svg);
+}
+
+
+
 .botton-mac-bottom-main{
     background-color: #8DA0E1;
     color: white;
     font-size: 1.1rem;
-    padding: 10px 20px;
+    padding: 15px;
     border-radius: 37px;
 }
 
