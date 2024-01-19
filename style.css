@@ -170,6 +170,30 @@ li > a{
     display: flex;   
 }
 
+.voice-connect{
+    background-image: url(img/item2.svg);
+    background-size: cover;
+    width: 70%;
+    height: 100%;
+}
+
+.text-voice-connect{
+    width: 30%;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.text-voice-connect > h2{
+    font-size: 2rem;
+}
+
+.text-voice-connect > p{
+    font-size: 1.2rem;
+    padding-top: 30px;
+}
+
+
+
 .quarta-section{
     background-color: #FFFFFF;
     height: 450px;
