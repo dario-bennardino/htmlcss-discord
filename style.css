@@ -53,6 +53,15 @@ ul{
 li > a{
     text-decoration: none;
     color: white;
+    font-weight: bold;
+}
+
+.login{
+    color: black;
+    background-color: white;
+    border-radius: 37%;
+    padding: 10px;
+
 }
 
 .jumbotron{
