@@ -223,21 +223,30 @@ li > a{
 }
 
 
-
-
-
 .quinta-section{
     background-color: #F6F6F6;
     height: 650px;
     display: flex;
-
 }
 
-.rettangolo-verde-grande{
+.tecnologia{
     background-color: #228B21;
     width: 60%;
     height: 80%;
     margin: auto;
+    text-align: center;
+}
+
+.tecnologia-img{
+    background-image: url(img/item4-big.svg);
+}
+
+.botton-mac-bottom-main{
+    background-color: #8DA0E1;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 37px;
 }
 
 
