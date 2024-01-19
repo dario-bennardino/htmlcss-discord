@@ -8,6 +8,11 @@ body{
     font-family: Arial;
 }
 
+header{
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+}
+
 .topbar{
     background-color: #1A62E9;
     height: 100px;
@@ -43,7 +48,6 @@ body{
 
 .jumbotron{
     height: 450px;
-    background-color: #3170e4;
     display: flex;   
 }
 .rettangolo-fucsia{
@@ -54,8 +58,9 @@ body{
 }
 
 .seconda-section{
+    background-image: url(img/item1.svg);
+    background-size: cover;
     height: 450px;
-    background-color: white;
     display: flex;
     margin: auto;
 }
@@ -93,19 +98,23 @@ body{
 }
 
 .terza-section{
-    background-color: #D3D3D3;
+    
+    background-image: url(img/item2.svg);
+    background-size: cover;
     height: 450px;
     display: flex;   
 }
 
 .quarta-section{
-    background-color: white;  
+    background-image: url(img/item3.svg); 
+    background-size: cover;
     height: 450px;
     display: flex;
 }
 
 .quinta-section{
-    background-color: #D3D3D3; 
+    background-image: url(img/item4-big.svg);
+    background-size: cover;
     height: 650px;
     display: flex;
 
