@@ -46,6 +46,15 @@ header{
     border: 1px solid black;
 }
 
+ul{
+    list-style: none;   
+}
+
+li > a{
+    text-decoration: none;
+    color: white;
+}
+
 .jumbotron{
     height: 450px;
     display: flex;   
@@ -53,13 +62,13 @@ header{
 .rettangolo-fucsia{
     height: 80%;
     width: 60%;
-    background-color: #EE82EE;
+    background-color: rgba(255, 0, 0, .4);
     margin: auto;
+    
 }
 
 .seconda-section{
-    background-image: url(img/item1.svg);
-    background-size: cover;
+    background-color: #FFFFFF;
     height: 450px;
     display: flex;
     margin: auto;
@@ -72,8 +81,9 @@ header{
     display: flex;
 }
 
+
 .rettangolo-azzurro-grande{
-    background-color: #1D90FF;
+    background-color: rgba(255, 0, 0, .4);
     width: 70%;
     height: 100%;
 }    
@@ -85,7 +95,7 @@ header{
 }
 
 .rettangolo-rosa-piccolo{
-    background-color: #FEC0CB;
+    background-color: rgba(11, 131, 11, .4);
     width: 30%;
     height: 100%;
 }
@@ -98,23 +108,19 @@ header{
 }
 
 .terza-section{
-    
-    background-image: url(img/item2.svg);
-    background-size: cover;
+    background-color: #F6F6F6;
     height: 450px;
     display: flex;   
 }
 
 .quarta-section{
-    background-image: url(img/item3.svg); 
-    background-size: cover;
+    background-color: #FFFFFF;
     height: 450px;
     display: flex;
 }
 
 .quinta-section{
-    background-image: url(img/item4-big.svg);
-    background-size: cover;
+    background-color: #F6F6F6;
     height: 650px;
     display: flex;
 
