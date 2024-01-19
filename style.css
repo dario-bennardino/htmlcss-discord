@@ -72,9 +72,26 @@ li > a{
     height: 80%;
     width: 60%;
     background-color: rgba(255, 0, 0, .4);
-    margin: auto;
-    
+    margin: auto;   
+    text-align: center; 
+    padding: 0px 200px;
 }
+
+.rettangolo-fucsia > h1{
+    color: white;
+    font-size: 3.5rem;
+}
+
+.rettangolo-fucsia > p{
+    color: white;
+    font-size: 1.4rem;
+    padding-top: 50px;
+    
+
+}
+
+
+
 
 .seconda-section{
     background-color: #FFFFFF;
