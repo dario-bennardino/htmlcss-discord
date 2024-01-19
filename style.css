@@ -127,8 +127,9 @@ li > a{
 }
 
 
-.rettangolo-azzurro-grande{
-    background-color: rgba(255, 0, 0, .4);
+.study-group{
+    background-image: url(img/item1.svg);
+    background-size: cover;
     width: 70%;
     height: 100%;
 }    
@@ -139,11 +140,22 @@ li > a{
     height: 100%;
 }
 
-.rettangolo-rosa-piccolo{
-    background-color: rgba(11, 131, 11, .4);
+.study-group-text{
     width: 30%;
     height: 100%;
+    padding-top: 30px;
 }
+
+.study-group-text > h2{
+    font-size: 2rem;
+}
+
+.study-group-text > p{
+    font-size: 1.2rem;
+    padding-top: 30px;
+}
+
+
 
 .rettangolo-azzurro-piccolo{
     background-color: #1D90FF;
