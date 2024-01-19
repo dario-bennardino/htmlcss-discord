@@ -57,10 +57,11 @@ li > a{
 }
 
 .login{
-    color: black;
+    color: #4F5354;
     background-color: white;
     border-radius: 37%;
-    padding: 10px;
+    padding: 10px 15px;
+    font-weight: bold;
 
 }
 
@@ -71,7 +72,7 @@ li > a{
 .rettangolo-fucsia{
     height: 80%;
     width: 60%;
-    background-color: rgba(255, 0, 0, .4);
+    /* background-color: rgba(255, 0, 0, .4); */
     margin: auto;   
     text-align: center; 
     padding: 0px 200px;
@@ -86,10 +87,28 @@ li > a{
     color: white;
     font-size: 1.4rem;
     padding-top: 50px;
-    
-
 }
 
+.botton-jumbotron{
+    padding-top: 35px;
+}
+
+.botton-mac{
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 37px;
+}
+
+.botton-browser{
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 37px;
+}
 
 
 
