@@ -30,6 +30,7 @@ header{
     max-width: 1400px;
     width: 99%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .topbar .menu{
@@ -40,7 +41,6 @@ header{
     display: flex;
     justify-content: space-between;
 }
-
 
 .debug{
     border: 1px solid black;
@@ -62,14 +62,14 @@ li > a{
     border-radius: 37%;
     padding: 10px 15px;
     font-weight: bold;
-
 }
 
 .jumbotron{
     height: 550px;
     display: flex;   
 }
-.rettangolo-fucsia{
+
+.download-area{
     height: 80%;
     width: 60%;
     margin: auto;   
@@ -77,12 +77,12 @@ li > a{
     padding: 0px 200px;
 }
 
-.rettangolo-fucsia > h1{
+.download-area > h1{
     color: white;
     font-size: 3.5rem;
 }
 
-.rettangolo-fucsia > p{
+.download-area > p{
     color: white;
     font-size: 1.4rem;
     padding-top: 50px;
@@ -96,7 +96,7 @@ li > a{
     background-color: white;
     color: black;
     font-size: 1.5rem;
-    padding: 20px 15px;
+    padding: 20px 30px;
     border-radius: 37px;
 }
 
@@ -105,39 +105,31 @@ li > a{
     color: white;
     margin-left: 50px;
     font-size: 1.5rem;
-    padding: 20px 15px;
+    padding: 20px 30px;
     border-radius: 37px;
 }
 
-
-
 .seconda-section{
     background-color: #FFFFFF;
-    height: 450px;
+    height: 770px;
     display: flex;
     margin: auto;
 }
 
 .box1{
     height: 80%;
-    width: 60%;
     margin: auto;
     display: flex;
+    width: 100%;
 }
-
 
 .study-group{
     background-image: url(img/item1.svg);
     background-size: cover;
+    background-position: center;
     width: 70%;
     height: 100%;
 }    
-
-.rettangolo-rosa-grande{
-    background-color: #FEC0CB;
-    width: 70%;
-    height: 100%;
-}
 
 .study-group-text{
     width: 30%;
@@ -154,24 +146,16 @@ li > a{
     padding-top: 20px;
 }
 
-
-
-.rettangolo-azzurro-piccolo{
-    background-color: #1D90FF;
-    width: 30%;
-    height: 100%;
-
-}
-
 .terza-section{
     background-color: #F6F6F6;
-    height: 450px;
+    height: 800px;
     display: flex;   
 }
 
 .voice-connect{
     background-image: url(img/item2.svg);
     background-size: cover;
+    background-position: center;
     width: 70%;
     height: 100%;
 }
@@ -191,17 +175,16 @@ li > a{
     padding-top: 30px;
 }
 
-
-
 .quarta-section{
     background-color: #FFFFFF;
-    height: 450px;
+    height: 800px;
     display: flex;
 }
 
 .fandom-img{
     background-image: url(img/item3.svg);
     background-size: cover;
+    background-position: center;
     width: 70%;
     height: 100%;
 }
@@ -221,15 +204,14 @@ li > a{
     padding-top: 30px;
 }
 
-
 .quinta-section{
     background-color: #F6F6F6;
-    height: 1000px;
+    height: 1200px;
     display: flex;
 }
 
 .tecnologia{
-    width: 60%;
+    width: 100%;
     height: 80%;
     margin: auto;
     text-align: center;
@@ -242,6 +224,7 @@ li > a{
 .tecnologia-img{
     background-image: url(img/item4-big.svg);
     background-size: cover;
+    background-position: center;
     height: 70%;
 }
 
@@ -263,18 +246,16 @@ li > a{
     font-size: 2rem;
     padding-bottom: 35px;
     background-image: url(img/stars.svg);
+    background-position: center;
 }
-
-
 
 .botton-mac-bottom-main{
     background-color: #8DA0E1;
     color: white;
-    font-size: 1.1rem;
-    padding: 15px;
+    font-size: 1.4rem;
+    padding: 20px 30px;
     border-radius: 37px;
 }
-
 
 .top-footer{
    background-color: #23272A; 
@@ -284,25 +265,57 @@ li > a{
 
 .colonne{
     height: 90%;
-    width: 60%;
+    width: 100%;
     margin: auto;
     display: flex;
-    justify-content: stretch;
-
 }
 
-.colonna-md{
+.info-box{
     width: 32%;
-    background-color: #F07F80;
     height: 100%;
-    margin: 1px solid black;
-
+    padding: 10px;
+    flex-direction: column;
+    font-size: 1.5rem;
 }
+
+.lingua{
+    height: 70px;
+    margin-top: 30px;
+}
+
+.lingua img{
+    height: 15px;
+}
+
+#lingua-text{
+    font-size: 18px;
+    padding-left: 5px;
+    color: white;
+}
+
+.link-social{
+    display: flex;
+    justify-content: space-between;
+    max-width: 40%;
+}
+
+.color-link-social{
+    color: white;
+}
+
 .colonna-sm{
     width: 16%;
-    background-color: #21B2AB;
     height: 100%;
-    margin: 1px solid black;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.colonna-sm li{
+    padding-top: 20px;
+}
+
+.barra-footer{
+    color: #48567E;
 }
 
 .bottom-footer{
@@ -313,20 +326,32 @@ li > a{
 
 .box2{
     height: 90%;
-    width: 60%;
+    width: 100%;
     margin: auto;
     display: flex;
-    background-color: #80FFD4;
+    background-color: #23272A;
     justify-content: space-between;
     align-items: center;
 }
 
-.bottone-logo-footer{
-    background-color: #FFB6C2;
-
+.botton-footer{
+    background-color: #8DA0E1;
+    border-radius: 37%;
+    padding: 15px;
+    color: white;
+    font-size: 0.8rem;
 }
 
-.bottone-footer{
-    background-color: #FFB6C2;
+.link-scarica{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
 
+.colonna-sm > h3{
+    color: #7189DA;                                
+}
+
+.info-box > h3{
+    color: #7189DA;                                
 }
